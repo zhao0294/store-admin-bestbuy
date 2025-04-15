@@ -50,7 +50,7 @@ services:
       timeout: 10s
       retries: 5
     environment:
-      - ORDER_QUEUE_URI
+      - ORDER_QUEUE_URI   #
       - ORDER_QUEUE_LISTENER_USERNAME
       - ORDER_QUEUE_LISTENER_PASSWORD
       - ORDER_QUEUE_NAME
@@ -58,8 +58,6 @@ services:
     networks:
       - backend_services
     depends_on:
-      rabbitmq:
-        condition: service_healthy
       mongodb:
         condition: service_healthy
   product-service:
