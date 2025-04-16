@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../virtual-worker-bestbuy"
+		},
+		{
+			"path": "../../../virtual-customer-bestbuy"
+		},
+		{
+			"path": "../../../ai-service-bestbuy"
+		},
+		{
+			"path": "../../../product-service-bestbuy"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../store-front-bestbuy"
+		},
+		{
+			"path": "../../../makeline-service-bestbuy"
+		},
+		{
+			"path": "../../../order-service-bestbuy"
+		}
+	]
+}
